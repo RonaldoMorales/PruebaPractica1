@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def scrape_products() -> list[dict]:
-     """Extrae productos y sus datos desde el sitio web."""
+    """Extrae productos y sus datos desde el sitio web."""
     options = Options()
     options.add_argument("--headless")
 

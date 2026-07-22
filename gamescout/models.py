@@ -15,7 +15,7 @@ from sqlmodel import (
 
 
 class ProductType(SQLModel, table=True):
-      """Representa el tipo o categoría de un producto."""
+    """Representa el tipo o categoría de un producto."""
 
     id: int = Field(
         default=None,
@@ -36,7 +36,8 @@ class ProductType(SQLModel, table=True):
 
 
 class Product(SQLModel, table=True):
-     """Representa un producto obtenido mediante scraping."""
+    """Representa un producto obtenido mediante scraping."""
+
     id: int = Field(
         default=None,
         primary_key=True

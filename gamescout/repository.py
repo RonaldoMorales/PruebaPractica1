@@ -9,7 +9,8 @@ from .models import Product, ProductType
 
 
 class ProductRepository:
-     """Gestiona las operaciones de persistencia de productos."""
+    """Gestiona las operaciones de persistencia de productos."""
+
     def __init__(self):
         self.engine = get_engine()
 
